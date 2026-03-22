@@ -1,4 +1,1 @@
-import LeanProofs
-
-def main : IO Unit :=
-  IO.println s!"Hello, {hello}!"
+#eval "Hello from Lean!"

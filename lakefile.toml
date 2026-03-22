@@ -1,10 +1,10 @@
 name = "lean-proofs"
 version = "0.1.0"
-defaultTargets = ["lean-proofs"]
+defaultTargets = ["LeanProofs"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
 
 [[lean_lib]]
 name = "LeanProofs"
-
-[[lean_exe]]
-name = "lean-proofs"
-root = "Main"
